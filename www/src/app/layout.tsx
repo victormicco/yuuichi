@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-bg`}
+        className={`${geistSans.variable} ${geistMono.variable} h-screen bg-bg`}
       >
         <Providers>{children}</Providers>
       </body>
