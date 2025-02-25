@@ -28,11 +28,7 @@ export default function ReferralSection() {
             <Button
               className="w-full rounded-lg"
               variant="ghost"
-              onPress={() => {
-                navigator.clipboard.writeText(
-                  "https://yuuichi.com/referral/1312313131asda123"
-                );
-              }}
+              onC
             >
               <Icons.Copy className="size-4" />
             </Button>
